@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/drawer_content"
+    android:background="@color/grey">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.30">
+            <ListView
+                android:id="@+id/lv_drawer_items"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:listSelector="@android:color/transparent"
+                android:cacheColorHint="@android:color/transparent"
+                tools:showIn="@layout/activity_main"
+                android:background="@color/grey"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:layout_marginTop="50dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.70">
+
+            <LinearLayout
+                android:background="@color/grey"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.60">
+
+                 <View
+                  android:layout_width="match_parent"
+                  android:layout_height="1dp"
+                  android:background="@color/grey_four"/>
+
+                <com.team.bulkan.font.HelveticaTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GET HELP"
+                    android:padding="15dp"
+                    android:textColor="@color/global_white"/>
+                <com.team.bulkan.font.HelveticaTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SEND FEEDBACK"
+                    android:padding="15dp"
+                    android:textColor="@color/global_white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="0.10"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="bottom"
+                android:gravity="bottom">
+
+                <LinearLayout
+                    android:background="@null"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="0.90"
+                    android:layout_gravity="bottom"
+                    android:gravity="bottom">
+                    <com.team.bulkan.font.RobotoTextView
+                        style="@style/TextViewAppearance.Caption1"
+                        android:id="@+id/tv_app_version"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:gravity="end"
+                        android:text="@string/versionName"
+                        android:padding="15dp"
+                        android:textColor="@color/divider"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
