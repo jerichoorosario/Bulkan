@@ -28,7 +28,6 @@ public class DBAccess extends DBWrapper{
         values.put(Volcano.KEY_GEO_LONG, item.getGeoLong());
         values.put(Volcano.KEY_VOLCANO_IMAGE, item.getVolcanoImage());
         long stored = database.insert(DBHelper.TBL_VOLCANOES,null, values);
-        System.out.println("STORED: " + item.getVolcanoId() +"~"+ item.getVolcanoName());
         return stored;
     }
 
