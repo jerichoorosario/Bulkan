@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "110785072125",
+    "firebase_url": "https://bulkan-220005.firebaseio.com",
+    "project_id": "bulkan-220005",
+    "storage_bucket": "bulkan-220005.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110785072125:android:4d712bcac24bc266",
+        "android_client_info": {
+          "package_name": "com.team.bulkan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110785072125-dfr96q25uq4euopfmt7bq9lo8ho3586e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKyWGpwP70HAJax6Ah2kvMpQGvF_-iVyM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
