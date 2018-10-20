@@ -33,7 +33,7 @@
             android:id="@+id/tv_username"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World"
+            android:text="Monkey D. Luffy"
             android:textColor="@android:color/white"
             android:textSize="20sp"
             />
