@@ -110,7 +110,7 @@ public class BeforeFragment extends Fragment implements OnItemKitSelectedListene
 
         itemKitList = new ArrayList<>();
         for(int x=0;x < itemsHouse.length;x++){
-            ItemKit ls = new ItemKit(itemsC[x].toString(), false);
+            ItemKit ls = new ItemKit(itemsHouse[x].toString(), false);
             itemKitList.add(ls);
         }
         itemKitAdapterHouse = new ItemKitAdapter(itemKitList, this);

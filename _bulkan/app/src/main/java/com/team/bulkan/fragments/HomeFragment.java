@@ -1,6 +1,7 @@
 package com.team.bulkan.fragments;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -9,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -16,9 +18,12 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.team.bulkan.AppController;
+import com.team.bulkan.MainActivity;
 import com.team.bulkan.R;
+import com.team.bulkan.activity.VolcanoInfoActivity;
 import com.team.bulkan.model.Volcano;
 import com.team.bulkan.network.Consts;
 
@@ -83,6 +88,24 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback {
                 options.icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_inactive_volcano));
             }
             googleMap.addMarker(options);
+            googleMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
+                @Override
+                public boolean onMarkerClick(Marker marker) {
+                    //currentPosition is user position
+                    if (marker.getPosition()!= currentPosition) {
+                        //OPEN VOLCANO INFO
+                        if(marker.getTitle().equals("Mayon")){
+                            Intent showInfo = new Intent(MainActivity.getInstance(), VolcanoInfoActivity.class);
+                            showInfo.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                            showInfo.putExtra(VolcanoInfoActivity.VOLCANO_ID, 26);
+                            startActivity(showInfo);
+                        }else{
+                            Toast.makeText(MainActivity.getInstance(), "VOLCANO: " + marker.getTitle() +"~"+ marker.getPosition(), Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                    return true;
+                }
+            });
         }
 
         //gMap.moveCamera(CameraUpdateFactory.newLatLng(currentPosition));

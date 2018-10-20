@@ -31,6 +31,27 @@ public class DBAccess extends DBWrapper{
         return stored;
     }
 
+    public Volcano getVolcanoById(int volcanoId){
+        Volcano ret = new Volcano();
+        String RAW_QUERY = "SELECT id, volcano_id, volcano_name, volcano_info, geo_lat, geo_long, image FROM " + DBHelper.TBL_VOLCANOES + " WHERE volcano_id = " + volcanoId;
+        Cursor cursor = null;
+        try {
+            cursor = database.rawQuery(RAW_QUERY, null);
+            while (cursor.moveToNext()) {
+               ret.setId(cursor.getInt(0));
+               ret.setVolcanoId(cursor.getInt(1));
+               ret.setVolcanoName(cursor.getString(2));
+               ret.setVolcanoInfo(cursor.getString(3));
+               ret.setGeoLat(cursor.getDouble(4));
+               ret.setGeoLong(cursor.getDouble(5));
+               ret.setVolcanoImage(cursor.getString(6));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return ret;
+    }
+
     public List<Volcano> getVolcanoes(){
         List items = new ArrayList();
         String RAW_QUERY = "SELECT id, volcano_id, volcano_name, volcano_info, geo_lat, geo_long, image FROM " + DBHelper.TBL_VOLCANOES;

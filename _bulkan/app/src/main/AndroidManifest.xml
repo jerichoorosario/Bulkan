@@ -29,6 +29,9 @@
         <activity android:name=".MainActivity" android:screenOrientation="portrait"/>
         <activity android:name=".activity.PrepareActivity" android:screenOrientation="portrait"/>
         <activity android:name=".activity.HazardsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.VolcanoInfoActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.EvacuateActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.EvacActivity" android:screenOrientation="portrait"/>
 
         <service android:name=".firebase.FbMessagingService">
             <intent-filter>
