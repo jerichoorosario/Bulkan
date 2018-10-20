@@ -7,6 +7,10 @@
     <!-- Preferences filename-->
     <string name="shared_prefs_key">bulkan_prefs</string>
 
+    <string name="material_icon_point_empty">&#xe868;</string>
+    <string name="material_icon_point_full">&#xe869;</string>
+    <string name="material_icon_go_right">&#xe876;</string>
+
     <!-- TextView related strings -->
     <string name="typography1">Typography I</string>
     <string name="typography2">Typography II</string>
@@ -19,4 +23,36 @@
     <string name="thiner_and_lighter_version">Thiner and lighter version of Material design</string>
     <string name="thicker_and_darker_version">Thicker and darker version of Material design</string>
 
+    <!--ONBOARDING-->
+    <string name="text_emergency">"Prepare an emergency kit.\nYour emergency kit should contain the following supplies:"</string>
+    <string name="text_household">"Prepare an household emergency plan with all of your household members."</string>
+
+    <string-array name="item_kits_a">
+        <item>Water</item>
+        <item>Canned goods</item>
+        <item>Flashlight</item>
+        <item>Battery-powered radio</item>
+        <item>Extra batteries</item>
+    </string-array>
+    <string-array name="item_kits_b">
+        <item>First aid kit</item>
+        <item>Medications</item>
+        <item>Multi-purpose tool</item>
+        <item>Personal hygiene supplies</item>
+        <item>Copies of personal documents</item>
+    </string-array>
+    <string-array name="item_kits_c">
+        <item>Feature phone with charger</item>
+        <item>Emergency contact information</item>
+        <item>Cash</item>
+        <item>Emergency blanket</item>
+        <item>Map of the area</item>
+        <item>Whistle</item>
+        <item>N95 masks</item>
+    </string-array>
+    <string-array name="household_items">
+        <item>Plan the escape route out of your house</item>
+        <item>Identify a meeting place if in case a member of the household is separated from the rest</item>
+        <item>Determine the task of each family member in the event of a disaster</item>
+    </string-array>
 </resources>

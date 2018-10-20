@@ -5,6 +5,7 @@ import android.app.Application;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.team.bulkan.db.DBAccess;
 
 import java.util.concurrent.TimeUnit;
 
@@ -17,6 +18,7 @@ public class AppController extends Application {
     private static OkHttpClient okHttpClient;
 
     private static DatabaseReference databaseReference;
+    private DBAccess dbAccess;
 
     public static synchronized AppController getInstance() {
         return appControllerInstance;
@@ -26,6 +28,7 @@ public class AppController extends Application {
     public void onCreate() {
         super.onCreate();
         appControllerInstance = this;
+        dbAccess = new DBAccess(this);
         okHttpClient = new OkHttpClient.Builder()
                 .connectTimeout(60, TimeUnit.SECONDS)
                 .writeTimeout(60, TimeUnit.SECONDS)
@@ -40,6 +43,10 @@ public class AppController extends Application {
         //Keep Data fresh
         databaseReference.keepSynced(true);
 
+    }
+
+    public DBAccess getDbAccess() {
+        return dbAccess;
     }
 
     public static DatabaseReference getFBDatabaseReference(){

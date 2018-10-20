@@ -138,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
         drawerToggle.syncState();
 
         _fragmentManager = new CustomFragmentManager(this, R.id.view_container);
-        _fragmentManager.switchTo(TypographyFragment.class, null);
+        _fragmentManager.switchTo(HomeFragment.class, null);
 
     }
 

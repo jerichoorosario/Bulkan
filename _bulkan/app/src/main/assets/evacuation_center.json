@@ -1,0 +1,324 @@
+[
+  {
+    "town": "Camalig",
+    "school_name": "Anoling Elementary School",
+    "geo_lat": 13.16214,
+    "geo_long": 123.633154,
+    "volcano_id": 26
+  },
+  {
+    "town": "Camalig",
+    "school_name": "Cabangan Elementary School",
+    "geo_lat": 13.185037,
+    "geo_long": 123.626816,
+    "volcano_id": 26
+  },
+  {
+    "town": "Camalig",
+    "school_name": "Camalig North Central School",
+    "geo_lat": 13.185707,
+    "geo_long": 123.658472,
+    "volcano_id": 26
+  },
+  {
+    "town": "Camalig",
+    "school_name": "Caguiba National High School",
+    "geo_lat": 13.115109,
+    "geo_long": 123.614291,
+    "volcano_id": 26
+  },
+  {
+    "town": "Camalig",
+    "school_name": "Palanog Elementary School",
+    "geo_lat": 13.147732,
+    "geo_long": 123.616162,
+    "volcano_id": 26
+  },
+  {
+    "town": "Camalig",
+    "school_name": "Pariaan Elementary School",
+    "geo_lat": 13.106691,
+    "geo_long": 123.592927,
+    "volcano_id": 26
+  },
+  {
+    "town": "Guinobatan",
+    "school_name": "Guinobatan East Central School",
+    "geo_lat": 13.189378,
+    "geo_long": 123.60316,
+    "volcano_id": 26
+  },
+  {
+    "town": "Guinobatan",
+    "school_name": "Lower Binagsacan Elementary School",
+    "geo_lat": 13.205575,
+    "geo_long": 123.582187,
+    "volcano_id": 26
+  },
+  {
+    "town": "Guinobatan",
+    "school_name": "Lower Binagsacan High School",
+    "geo_lat": 13.2048,
+    "geo_long": 123.582268,
+    "volcano_id": 26
+  },
+  {
+    "town": "Guinobatan",
+    "school_name": "Muladbucad Elementary School",
+    "geo_lat": 13.236205,
+    "geo_long": 123.605383,
+    "volcano_id": 26
+  },
+  {
+    "town": "Guinobatan",
+    "school_name": "Bubulusan Elementary School",
+    "geo_lat": 13.226504,
+    "geo_long": 123.594546,
+    "volcano_id": 26
+  },
+  {
+    "town": "Guinobatan",
+    "school_name": "San Jose Elementary School",
+    "geo_lat": 13.232195,
+    "geo_long": 123.592646,
+    "volcano_id": 26
+  },
+  {
+    "town": "Guinobatan",
+    "school_name": "Guinobatan West Central School",
+    "geo_lat": 13.191155,
+    "geo_long": 123.597664,
+    "volcano_id": 26
+  },
+  {
+    "town": "Guinobatan",
+    "school_name": "Mauraro High School",
+    "geo_lat": 13.148819,
+    "geo_long": 123.598726,
+    "volcano_id": 26
+  },
+  {
+    "town": "Guinobatan",
+    "school_name": "Maipon Elementary School",
+    "geo_lat": 13.150288,
+    "geo_long": 123.59481,
+    "volcano_id": 26
+  },
+  {
+    "town": "Guinobatan",
+    "school_name": "Don Juan Garcia Elementary School",
+    "geo_lat": 13.175797,
+    "geo_long": 123.606845,
+    "volcano_id": 26
+  },
+  {
+    "town": "Ligao City",
+    "school_name": "National Technical Vocational High School",
+    "geo_lat": 13.257868,
+    "geo_long": 123.586244,
+    "volcano_id": 26
+  },
+  {
+    "town": "Ligao City",
+    "school_name": "Nabonton Elementary School",
+    "geo_lat": 13.171329,
+    "geo_long": 123.466484,
+    "volcano_id": 26
+  },
+  {
+    "town": "Ligao City",
+    "school_name": "Ligao West Central Elementary School",
+    "geo_lat": 13.24074,
+    "geo_long": 123.530903,
+    "volcano_id": 26
+  },
+  {
+    "town": "Ligao City",
+    "school_name": "Tambo Elementary School",
+    "geo_lat": 13.282481,
+    "geo_long": 123.617554,
+    "volcano_id": 26
+  },
+  {
+    "town": "Daraga",
+    "school_name": "Budiao Elementary School",
+    "geo_lat": 13.179166,
+    "geo_long": 123.689554,
+    "volcano_id": 26
+  },
+  {
+    "town": "Daraga",
+    "school_name": "Anislag Elementary School",
+    "geo_lat": 13.074681,
+    "geo_long": 123.6997,
+    "volcano_id": 26
+  },
+  {
+    "town": "Daraga",
+    "school_name": "Lacag Elementary School",
+    "geo_lat": 13.154369,
+    "geo_long": 123.681135,
+    "volcano_id": 26
+  },
+  {
+    "town": "Daraga",
+    "school_name": "Lacag High School",
+    "geo_lat": 13.155686,
+    "geo_long": 123.681607,
+    "volcano_id": 26
+  },
+  {
+    "town": "Tabaco",
+    "school_name": "Mayon Elementary School",
+    "geo_lat": 13.359308,
+    "geo_long": 123.730444,
+    "volcano_id": 26
+  },
+  {
+    "town": "Tabaco",
+    "school_name": "Bantayan National High School",
+    "geo_lat": 13.322524,
+    "geo_long": 123.642661,
+    "volcano_id": 26
+  },
+  {
+    "town": "Tabaco",
+    "school_name": "Tabaco National High School",
+    "geo_lat": 13.355653,
+    "geo_long": 123.717676,
+    "volcano_id": 26
+  },
+  {
+    "town": "Tabaco",
+    "school_name": "Tabaco North West Central Elementary School",
+    "geo_lat": 13.356767,
+    "geo_long": 123.719539,
+    "volcano_id": 26
+  },
+  {
+    "town": "Tabaco",
+    "school_name": "San Antonio Elementary School",
+    "geo_lat": 13.35259,
+    "geo_long": 123.675857,
+    "volcano_id": 26
+  },
+  {
+    "town": "Malilipot",
+    "school_name": "Malilipot Central School",
+    "geo_lat": 13.318967,
+    "geo_long": 123.74063,
+    "volcano_id": 26
+  },
+  {
+    "town": "Malilipot",
+    "school_name": "San Jose Elementary School",
+    "geo_lat": 13.29338,
+    "geo_long": 123.758224,
+    "volcano_id": 26
+  },
+  {
+    "town": "Legazpi City",
+    "school_name": "Bagumbayan Central Elementary School",
+    "geo_lat": 13.14154,
+    "geo_long": 123.735511,
+    "volcano_id": 26
+  },
+  {
+    "town": "Legazpi City",
+    "school_name": "Albay Central School",
+    "geo_lat": 13.140526,
+    "geo_long": 123.736241,
+    "volcano_id": 26
+  },
+  {
+    "town": "Legazpi City",
+    "school_name": "Gogon Central School",
+    "geo_lat": 13.155677,
+    "geo_long": 123.745266,
+    "volcano_id": 26
+  },
+  {
+    "town": "Legazpi City",
+    "school_name": "Gogon High School",
+    "geo_lat": 13.154741,
+    "geo_long": 123.7457,
+    "volcano_id": 26
+  },
+  {
+    "town": "Legazpi City",
+    "school_name": "Legazpi City Science High School",
+    "geo_lat": 13.145677,
+    "geo_long": 123.745194,
+    "volcano_id": 26
+  },
+  {
+    "town": "Legazpi City",
+    "school_name": "Dita Elementary School",
+    "geo_lat": 13.180006,
+    "geo_long": 123.739253,
+    "volcano_id": 26
+  },
+  {
+    "town": "Sto. Domingo",
+    "school_name": "San Andres Elementary School",
+    "geo_lat": 13.26021,
+    "geo_long": 123.777737,
+    "volcano_id": 26
+  },
+  {
+    "town": "Sto. Domingo",
+    "school_name": "Bical National High School",
+    "geo_lat": 13.234938,
+    "geo_long": 123.776964,
+    "volcano_id": 26
+  },
+  {
+    "town": "Sto. Domingo",
+    "school_name": "San Isidro Elementary School",
+    "geo_lat": 13.229486,
+    "geo_long": 123.768335,
+    "volcano_id": 26
+  },
+  {
+    "town": "Sto. Domingo",
+    "school_name": "Salvacion Elementary School",
+    "geo_lat": 13.234423,
+    "geo_long": 123.776895,
+    "volcano_id": 26
+  },
+  {
+    "town": "Talisay",
+    "school_name": "Venancio Trinidad Memorial School",
+    "geo_lat": 14.095587,
+    "geo_long": 121.021963,
+    "volcano_id": 32
+  },
+  {
+    "town": "San Nicolas",
+    "school_name": "San Nicolas Public Market",
+    "geo_lat": 13.92984,
+    "geo_long": 120.952468,
+    "volcano_id": 32
+  },
+  {
+    "town": "Tagaytay",
+    "school_name": "Tagaytay City Sports Complex",
+    "geo_lat": 14.099589,
+    "geo_long": 120.940578,
+    "volcano_id": 32
+  },
+  {
+    "town": "Tagaytay",
+    "school_name": "Tolentino Sports Center",
+    "geo_lat": 14.124838,
+    "geo_long": 120.99227,
+    "volcano_id": 32
+  },
+  {
+    "town": "Tagaytay",
+    "school_name": "Tagaytay National High School Gymnasium",
+    "geo_lat": 14.10242,
+    "geo_long": 120.924323,
+    "volcano_id": 32
+  }
+]
