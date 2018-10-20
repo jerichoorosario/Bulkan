@@ -1,12 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/global_white">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
 
-    <TextView
+    <android.support.v4.view.ViewPager
+        android:id="@+id/activity_wizard_universal_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Volcanic Eruption Preparedness"/>
+        android:layout_weight="1">
+    </android.support.v4.view.ViewPager>
 
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@android:color/transparent" >
+
+            <com.team.bulkan.font.HelveticaTextView
+                android:visibility="gone"
+                android:id="@+id/activity_wizard_universal_previous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_weight="0"
+                android:background="@drawable/selector_dialog_media"
+                android:gravity="center"
+                android:minWidth="80dp"
+                android:padding="16dp"
+                android:text="Skip"
+                android:textColor="@color/accent"
+                android:textSize="18sp"
+                app:typeface="robotoMedium" />
+
+            <com.team.bulkan.font.MaterialDesignIconsTextView
+                android:id="@+id/activity_wizard_universal_possition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="0dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="0dp"
+                android:textColor="@color/accent"
+                android:textSize="12sp" />
+
+            <com.team.bulkan.font.MaterialDesignIconsTextView
+                android:visibility="gone"
+                android:id="@+id/activity_wizard_universal_next"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:minWidth="80dp"
+                android:padding="0dp"
+                android:text="@string/material_icon_go_right"
+                android:textColor="@color/accent"
+                android:textSize="26sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -5,12 +5,13 @@ android {
     buildToolsVersion "28.0.3"
     defaultConfig {
         applicationId "com.team.bulkan"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        buildConfigField 'String', 'DOMAIN', '"http://localhost:80/"'
+        buildConfigField 'String', 'DOMAIN', '"http://192.168.213.2:8080/"'
+        buildConfigField "int", "CACHE_TIME", "3600" // 1 hour express in seconds
     }
 
     lintOptions {
@@ -54,6 +55,13 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:16.0.3'
     implementation 'com.google.android.gms:play-services-maps:16.0.0'
     implementation 'com.google.android.gms:play-services-places:16.0.0'
+
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.2'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
 }
 
 apply plugin: 'com.google.gms.google-services'
