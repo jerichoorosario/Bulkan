@@ -11,6 +11,8 @@ import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.ImageView;
 
+import com.team.bulkan.firebase.NotifManager;
+
 public class SplashActivity extends AppCompatActivity {
 
     private View decorView;

@@ -4,6 +4,9 @@
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
 
+    <!-- Preferences filename-->
+    <string name="shared_prefs_key">bulkan_prefs</string>
+
     <!-- TextView related strings -->
     <string name="typography1">Typography I</string>
     <string name="typography2">Typography II</string>
